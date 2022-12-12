@@ -1,0 +1,16 @@
+disflex imagen y texto separar
+parte de servicios: convertir imagenes a png tipo silueta, tamaños y dimensiones
+cambiar  color de letra en clientes y certificaciones
+hosting, hojas de estilos, javascript, editores de texto
+
+mision:SOMOS UNA EMPRESA DE CONSULTORÍA Y CONSTRUCCIÓN dedicada a brindar servicio de alta calidad con responsabilidad, profesionalismo y honestidad, utilizando los recursos adecuados, los profesionales correctos, con la planificación debida y cumpliendo los plazos establecidos en los cronogramas de ejecución de obra, satisfaciendo los requerimientos de las empresas públicas y privadas que tengan la necesidad bienes de calidad.</p>
+      
+
+vision:SER UNA EMPRESA LIDER; Ser un grupo empresarial reconocido a nivel local, nacional e internacional, distinguiendonos por atender con estanderes de alta calidad nuestros proyectos de diversas magnitudes y sectores</p>
+      
+
+valores:
+
+<p>HONESTIDAD; el formar parte de su proyecto nos compromete a utilizar los recursos adecuados. Por ello GA ingenieros considera como parte clave la honestidad de sus trabajadores.</p>
+		<p>RESPONSABILIDAD; El factor tiempo es clave en nuestros proyectos ya que sabemos que es un aspecto fundamental para el cliente, es por ello que nuestros trabajdores en GA ingenieros cuentan con la adecuada supervision y planeacion de las obras para poder culminarlas de manera adecuada en los plazos establecidos.</p>
+      

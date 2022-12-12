@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<link rel="stylesheet" href="estilos.css">
+<meta charset="utf-8">
+<title>mi primera pagina</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="owl/owl.carousel.min.css">
+<link rel="stylesheet" href="owl/owl.theme.default.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+
+</head>
+
+
+<body>
+<header>
+  <div class="menu">
+    <div class="contenedor">
+      <p class="logo">G A INGENIEROS CONSTRUCTORES SAC </p>
+      <img class="menu-icon" src="imagenes/menu.png" alt="">
+      <nav>
+        <ul class="lista-menu">
+       	  <li><a href="#Bernal"> Bernal </a></li>
+          <li><a href="#Lalaquiz"> Lalaquiz </a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+</header>
+  
+
+<div class="contenedor" id="contenedor-titulo-flex">
+  <div class="contenedor-titulo">
+    <h1>G A</h1>
+    <h2>INGENIEROS CONSTRUCTORES SAC</h2> 
+  </div>
+</div>
+
+<section id="Bernal">
+<CENTER>
+<h3> PROYECTO BERNAL</h3>
+				 	 <h2> "CREACION DEL SERVICIO DE PROTECCION EN RIBERAS DEL RÍO PIURA ANTE EL PELIGRO DE DESBORDESE INUNDACIONES EN EL SECTOR LA CORDILLERA, DISTRITO DE BERNAL, PROVINCIA DE SECHURA, DEPARTAMENTO DE PIURA"</h2>
+				 	 <p>Proyecto valorizado en 15´920,433.15 soles</p>
+</CENTER>
+</section>
+
+
+<body bgcolor="white">
+
+<section id="bernal">
+  <div class="contenedor">
+    <div class="bernal">
+      <center>
+      <div class="bernal">
+        <img src="imagenes2/bernal.jpg">
+      </div>
+      </center>
+    </div>
+    <center>
+    <div class="texto">
+        <p>Objetivo General: Proteger las unidades productoras frente a inundaciones e n el margen derecho del rio Piura, sector la Cordillera, distrito de Bemal, Provincia de Sechura, Departamento de Piura.</p>
+    </center>
+      </div>
+  </div>
+</section>
+
+<section id="bernal">
+  <div class="contenedor">
+    <div class="bernal">
+      <center>
+      <div class="bernal1">
+        <img src="imagenes2/bernal1.jpeg">
+      </div>
+      </center>
+    </div>
+    <center>
+    <div class="texto">
+        <p>La defensa ribereña protegerá a las poblaciones afectadas en los eventos anteriores del Niño Costero:</p>
+    </center>
+      </div>
+  </div>
+</section>
+
+
+<section id="bernal">
+  <div class="contenedor">
+    <div class="bernal">
+      <center>
+      <div class="poblacion">
+        <img src="imagenes2/poblacion.jpg">
+      </div>
+      </center>
+    </div>
+    <center>
+    <div class="texto">
+        <p>Población Beneficiada:</p>
+        <p>cerca de 6,449 personas</p>
+    </center>
+      </div>
+  </div>
+</section>
+
+<section id="Lalaquiz">
+<CENTER>
+<h3> PROYECTO LALAQUIZ</h3>
+           <h2> “MEJORAMIENTO DEL SERVICIO EDUCATIVO EN EL NIVEL INICIAL EN EL MARCO DEL PROGRAMA DE EDUCACION DE LOGROS DE APRENDIZAJES EN EBR – DE LA INSTITUCION EDUCATIVA PRIORIZADA E IDENTIFICADA N° 1189 DEL CENTRO POBLADO TAMBOGRANDE DEL DISTRITO DE LALAQUIZ DE LA PROVINCIA DE HUANCABAMBA – DEPARTAMENTO DE PIURA”</h2>
+           <p>Proyecto valorizado en 1´613,201.07 soles</p>
+</CENTER>
+</section>
+
+
+<section id="bernal">
+  <div class="contenedor">
+    <center>
+    <div class="lalaquiz">
+      <div class="lalaquiz">
+        <img src="imagenes2/lalaquiz.jpeg">
+    </center>
+      </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="bernal">
+  <div class="contenedor">
+    <div class="lalaquiz">
+      <center>
+      <div class="lalaquiz">
+        <img src="imagenes2/foto6.jpeg">
+      </center>
+      </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+
+	<a href="index.HTML"><img src="imagenes2/volver2.png" width="10%" height="10%"></a>
+
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="owl/owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  dots:false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:4
+      }
+  }
+})
+</script>
+
+<script>
+
+$(document).ready(function(){
+
+$(window).scroll(function(){
+  scroll = $(window).scrollTop();
+  if (scroll > 100) {
+    $('.menu').css({"position":"fixed"});
+    $('.menu').css({"width":"100%"});
+    $('.menu').css({"top":"0"});
+    $('.menu').css({"background":"#fff"});
+    $('.menu a').css({"color":"#000"});
+    $('.logo').css({"color":"#000"});
+    $('.menu').css({"box-shadow":"rgba(0, 0, 0, 0.22) 6px 1px 1px"});
+    $('.menu').css({"z-index":"100"});
+  } else {
+    $('.menu').css({"position":"relative"});
+    $('.menu').css({"background":"transparent"});
+    $('.menu').css({"box-shadow":"0 0 0"});
+    $('.menu a').css({"color":"#fff"});
+    $('.logo').css({"color":"#fff"});
+  }
+})
+
+$('.menu-icon').click(function(){
+  $('header nav').slideToggle();
+})
+
+})
+
+
+
+</script>
+
+
+</body>
+
+</html>
